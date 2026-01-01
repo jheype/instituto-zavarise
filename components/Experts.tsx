@@ -33,7 +33,7 @@ export default function Experts() {
           className="mb-16 text-xl font-medium tracking-[0.35em]"
           style={{ color: "#AE836D" }}
         >
-          NOSSOS ESPECIALISTAS
+          NOSSOS PROFISSIONAIS
         </h2>
 
         {/* Mobile: carousel */}
