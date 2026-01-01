@@ -39,7 +39,7 @@ export default function Specialties() {
           className="mb-14 text-xl font-medium tracking-[0.35em]"
           style={{ color: "#AE836D" }}
         >
-          NOSSAS ESPECIALIDADES
+          NOSSOS SERVIÇOS
         </h2>
 
         <div data-aos="fade-down" className="grid gap-12 md:grid-cols-2">
