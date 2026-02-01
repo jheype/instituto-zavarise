@@ -1,17 +1,23 @@
 import type { Metadata, Viewport } from "next";
-import { Poppins } from "next/font/google";
+import { Playfair_Display, Lato } from "next/font/google";
 import AOSProvider from "@/components/AOSProvider";
 import "./globals.css";
 
-const poppins = Poppins({
+const lato = Lato({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["300", "400", "700"], 
+  variable: "--font-sans", 
   display: "swap",
-  variable: "--font-poppins",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-serif", 
+  display: "swap",
 });
 
 const siteName = "Instituto Zavarise";
-const siteDescription = "Saúde, bem-estar e cuidado especializado.";
+const siteDescription = "Saúde integrativa, bem-estar e cuidado especializado.";
 const siteUrl = "https://institutozavarise.com";
 
 export const metadata: Metadata = {
@@ -70,7 +76,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#F6F2EE",
+  themeColor: "#F9F7F5",
 };
 
 export default function RootLayout({
@@ -79,8 +85,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={poppins.variable}>
-      <body className="min-h-dvh antialiased">
+    <html lang="pt-BR" className={`${playfair.variable} ${lato.variable}`}>
+      <body className="min-h-dvh antialiased bg-[#F9F7F5] text-[#5E4B35]">
         <AOSProvider />
         {children}
         </body>
