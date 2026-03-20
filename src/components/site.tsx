@@ -445,7 +445,7 @@ export function Footer() {
 export function WhatsAppButton() {
   return (
     <motion.a
-      href="https://wa.me/5521987654321"
+      href="https://wa.me/552799851536"
       target="_blank"
       rel="noopener noreferrer"
       whileHover={{ scale: 1.08 }}
