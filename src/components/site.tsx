@@ -435,7 +435,7 @@ export function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-center text-xs uppercase tracking-[0.22em] text-white/40 md:flex-row">
           <p>© 2026 Instituto Zavarise. Todos os direitos reservados.</p>
-          <p>Desenvolvido com excelência</p>
+          <p>Desenvolvido por: <a href="https://jheype.dev" className="text-blue-300" target="_blank">Jheype</a></p>
         </div>
       </Container>
     </footer>
