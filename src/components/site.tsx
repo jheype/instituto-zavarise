@@ -142,7 +142,7 @@ export function Hero() {
             Instituto <br />
             <span>Zavarise</span>
           </h1>
-          <p className="mt-6 max-w-xl text-base leading-8 text-[rgba(45,36,30,0.72)] md:text-lg">
+          <p className="mt-6 max-w-xl text-base text-justify leading-8 text-[rgba(45,36,30,0.72)] md:text-lg">
             Descubra o prazer de se cuidar em um espaço pensado para acolher, transformar e elevar a sua saúde.
 No Instituto Zavarize, cada detalhe foi criado para proporcionar uma experiência única, com olhar individualizado, ciência e cuidado em cada etapa da sua jornada.
           </p>
@@ -220,12 +220,12 @@ export function Services() {
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
           {services.map((service, index) => (
             <Reveal key={service.title} delay={index * 0.08} y={18}>
-              <article className="group h-full rounded-[1.75rem] border border-[rgba(137,116,95,0.08)] bg-white p-6 transition-all duration-300 hover:-translate-y-2 hover:border-[rgba(137,116,95,0.22)]">
+              <article className="group h-full rounded-[1.75rem] border border-[rgba(137,116,95,0.08)] bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:border-[rgba(137,116,95,0.22)]">
                 <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--background)] transition-colors group-hover:bg-[var(--accent)]">
                   <ArrowRight className="h-6 w-6 text-[var(--accent)] transition-colors group-hover:text-white" />
                 </div>
                 <h3 className="font-[var(--font-serif)] text-2xl">{service.title}</h3>
-                <p className="mt-4 text-sm leading-7 text-[rgba(45,36,30,0.64)]">{service.description}</p>
+                <p lang="pt-BR" className="mt-4 text-justify leading-7 hyphens-auto text-sm text-[rgba(45,36,30,0.64)]">{service.description}</p>
               </article>
             </Reveal>
           ))}
