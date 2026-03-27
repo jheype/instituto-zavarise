@@ -138,7 +138,7 @@ export function Hero() {
           <span className="mb-4 block text-sm font-medium uppercase tracking-[0.32em] text-[var(--accent)]">
             Bem-vindo ao
           </span>
-          <h1 className={`${montserrat.className} uppercase text-5xl leading-[0.98] md:text-7xl lg:text-8xl`}>
+          <h1 className={`${montserrat.className} uppercase text-5xl text-[var(--accent)] leading-[0.98] md:text-7xl lg:text-8xl`}>
             Instituto <br />
             <span className="text-[var(--accent)]">Zavarise</span>
           </h1>
