@@ -17,7 +17,7 @@ const services = [
   {
     title: "Endocrinologia",
     description:
-      "Diagnóstico e tratamento de distúrbios hormonais, incluindo diabetes, tireoide, metabolismo e saúde endócrina de forma integrada."
+      "Diagnóstico e tratamento dos distúrbios hormonais, com abordagem integrada do metabolismo, incluindo tireoide, diabetes, menopausa, transtornos alimentares, obesidade e emagrecimento, promovendo o equilíbrio da saúde endócrina."
   },
   {
     title: "Dermatologia",
