@@ -190,7 +190,7 @@ export function About() {
 
           <Reveal x={40}>
             <SectionLabel>Nossa História</SectionLabel>
-            <div className="mt-8 space-y-6 text-[rgba(45,36,30,0.7)] leading-8">
+            <div className="mt-8 text-justify space-y-6 text-[rgba(45,36,30,0.7)] leading-8">
               <p>
                 O Instituto Zavarize nasce da visão da Dra. Bianca Zavarize, construída a partir de um propósito muito claro: oferecer um cuidado que acolhe, integra e respeita a singularidade de cada paciente. Sua forma de enxergar a saúde parte de um princípio essencial: o paciente não pode ser fragmentado. Cuidar exige um olhar amplo, preciso e verdadeiramente integrado.
               </p>
