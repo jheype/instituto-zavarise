@@ -149,14 +149,14 @@ No Instituto Zavarize, cada detalhe foi criado para proporcionar uma experiênci
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link
               href="#servicos"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--accent)] px-8 py-4 text-base font-medium text-white transition-all hover:opacity-90"
+              className="uppercase inline-flex items-center justify-center gap-2 rounded-full bg-[var(--accent)] px-8 py-4 text-base font-medium text-white transition-all hover:opacity-90"
             >
               Nossos Serviços
               <ArrowRight className="h-5 w-5" />
             </Link>
             <Link
               href="#sobre"
-              className="inline-flex items-center justify-center rounded-full border border-[var(--accent)] px-8 py-4 text-base font-medium text-[var(--accent)] transition-all hover:bg-[var(--accent)] hover:text-white"
+              className="uppercase inline-flex items-center justify-center rounded-full border border-[var(--accent)] px-8 py-4 text-base font-medium text-[var(--accent)] transition-all hover:bg-[var(--accent)] hover:text-white"
             >
               Conheça o Instituto
             </Link>
@@ -192,7 +192,7 @@ export function About() {
             <SectionLabel>Nossa História</SectionLabel>
             <div className="mt-8 space-y-6 text-[rgba(45,36,30,0.7)] leading-8">
               <p>
-                O Instituto Zavarize nasce da visão da Dra. Bianca Zavarize de uma medicina mais sofisticada, individualizada e verdadeiramente integrada. Sua forma de enxergar a saúde sempre partiu de um princípio essencial: o paciente não pode ser fragmentado. Cuidar exige compreender o todo, com profundidade, precisão e sensibilidade.
+                O Instituto Zavarize nasce da visão da Dra. Bianca Zavarize, construída a partir de um propósito muito claro: oferecer um cuidado que acolhe, integra e respeita a singularidade de cada paciente. Sua forma de enxergar a saúde parte de um princípio essencial: o paciente não pode ser fragmentado. Cuidar exige um olhar amplo, preciso e verdadeiramente integrado.
               </p>
               <p>
                 Movida por esse propósito, idealizou um espaço onde diferentes especialidades atuam de forma complementar, oferecendo um cuidado contínuo, estratégico e personalizado. O Instituto reúne uma equipe integrada nas áreas de endocrinologia integrativa, nutrição, psiquiatria e dermatologia, permitindo uma abordagem completa, que respeita a individualidade e a complexidade de cada paciente.
