@@ -27,7 +27,7 @@ const services = [
   {
     title: "Nutrição",
     description:
-      "Planejamento alimentar personalizado para melhora da saúde, desempenho físico, equilíbrio metabólico e qualidade de vida."
+      "Acompanhamento nutricional altamente individualizado, com avaliação aprofundada do metabolismo, saúde intestinal e composição corporal, incluindo o manejo cuidadoso dos transtornos alimentares e desenvolvimento da consciência alimentar."
   },
   {
     title: "Psiquiatria",
