@@ -336,7 +336,7 @@ export function Contact() {
               <div className="mt-6 space-y-4 text-sm">
                 <div className="flex justify-between border-b border-[rgba(137,116,95,0.12)] pb-3">
                   <span className="text-[rgba(45,36,30,0.64)]">Segunda - Sexta</span>
-                  <span className="font-medium">08:00 - 18:30</span>
+                  <span className="font-medium">08:30 - 18:30</span>
                 </div>
                 <div className="flex justify-between border-b border-[rgba(137,116,95,0.12)] pb-3">
                   <span className="text-[rgba(45,36,30,0.64)]">Sábado</span>
