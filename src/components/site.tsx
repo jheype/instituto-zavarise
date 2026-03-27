@@ -86,8 +86,8 @@ export function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-[rgba(137,116,95,0.1)] bg-[rgba(241,238,233,0.82)] backdrop-blur-md">
       <Container className="flex h-20 items-center justify-between">
-        <Link href="#top" className="font-[var(--font-serif)] text-2xl uppercase tracking-[0.24em] text-[var(--accent)]">
-          Zavarise
+        <Link href="#top" className="font-[var(--font-serif)] text-xl uppercase tracking-[0.24em] text-[var(--accent)]">
+          Instituto Zavarise
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -138,9 +138,9 @@ export function Hero() {
           <span className="mb-4 block text-sm font-medium uppercase tracking-[0.32em] text-[var(--accent)]">
             Bem-vindo ao
           </span>
-          <h1 className={`${montserrat.className} uppercase text-5xl text-[var(--accent)] leading-[0.98] md:text-7xl lg:text-8xl`}>
+          <h1 className={`${montserrat.className} uppercase text-5xl text-[#665746] leading-[0.98] md:text-7xl lg:text-8xl`}>
             Instituto <br />
-            <span className="text-[var(--accent)]">Zavarise</span>
+            <span>Zavarise</span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-8 text-[rgba(45,36,30,0.72)] md:text-lg">
             Descubra o prazer de se cuidar em um espaço pensado para acolher, transformar e elevar a sua saúde.
@@ -198,21 +198,9 @@ export function About() {
                 Movida por esse propósito, idealizou um espaço onde diferentes especialidades atuam de forma complementar, oferecendo um cuidado contínuo, estratégico e personalizado. O Instituto reúne uma equipe integrada nas áreas de endocrinologia integrativa, nutrição, psiquiatria e dermatologia, permitindo uma abordagem completa, que respeita a individualidade e a complexidade de cada paciente.
               </p>
               <p>
-                Mais do que tratar, o Instituto Zavarize traduz um propósito de cuidado genuíno.
+                Mais do que um espaço de saúde, o Instituto Zavarize traduz um propósito de cuidado genuíno.
               </p>
             </div>
-            <ul className="mt-8 space-y-4">
-              {[
-                "Tecnologia de última geração",
-                "Atendimento personalizado",
-                "Ambiente acolhedor e sofisticado"
-              ].map((item) => (
-                <li key={item} className="flex items-center gap-3">
-                  <span className="h-2 w-2 rounded-full bg-[var(--accent)]" />
-                  <span className="font-medium text-[var(--foreground)]">{item}</span>
-                </li>
-              ))}
-            </ul>
           </Reveal>
         </div>
       </Container>
