@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { montserrat } from "@/app/fonts";
 import {
   ArrowRight,
   Instagram,
@@ -137,7 +138,7 @@ export function Hero() {
           <span className="mb-4 block text-sm font-medium uppercase tracking-[0.32em] text-[var(--accent)]">
             Bem-vindo ao
           </span>
-          <h1 className="uppercase font-[var(--font-serif)] text-5xl leading-[0.98] md:text-7xl lg:text-8xl">
+          <h1 className={`${montserrat.className} uppercase text-5xl leading-[0.98] md:text-7xl lg:text-8xl`}>
             Instituto <br />
             <span className="text-[var(--accent)]">Zavarise</span>
           </h1>
