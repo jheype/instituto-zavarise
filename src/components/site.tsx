@@ -32,7 +32,7 @@ const services = [
   {
     title: "Psiquiatria",
     description:
-      "Avaliação e tratamento de transtornos mentais, com abordagem humanizada voltada ao bem-estar emocional e qualidade de vida."
+      "Cuidado especializado em saúde mental, com abordagem altamente aprofundada, voltada ao manejo dos transtornos psiquiátricos, equilíbrio emocional, regulação do sono, ansiedade e humor, promovendo estabilidade, clareza mental e qualidade de vida."
   }
 ];
 
