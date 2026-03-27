@@ -5,9 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
-  Facebook,
   Instagram,
-  Linkedin,
   Mail,
   MapPin,
   Phone
@@ -54,7 +52,7 @@ const professionals = [
     name: "Dra. Mliena Cipriano",
     role: "Dermatologia",
     image:
-      "/milena.jpeg"
+      "/milena-two.jpeg"
   },
   {
     name: "Dra. Danielly Calais",
@@ -107,7 +105,7 @@ export function Navbar() {
           href="#contato"
           className="rounded-full bg-[var(--accent)] px-6 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:opacity-90"
         >
-          Agendar Consulta
+          AGENDE UMA CONSULTA
         </Link>
       </Container>
     </header>
@@ -139,12 +137,13 @@ export function Hero() {
           <span className="mb-4 block text-sm font-medium uppercase tracking-[0.32em] text-[var(--accent)]">
             Bem-vindo ao
           </span>
-          <h1 className="font-[var(--font-serif)] text-5xl leading-[0.98] md:text-7xl lg:text-8xl">
+          <h1 className="uppercase font-[var(--font-serif)] text-5xl leading-[0.98] md:text-7xl lg:text-8xl">
             Instituto <br />
-            <span className="italic text-[var(--accent)]">Zavarise</span>
+            <span className="text-[var(--accent)]">Zavarise</span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-8 text-[rgba(45,36,30,0.72)] md:text-lg">
-            Excelência em saúde e bem-estar. Unimos tecnologia de ponta a um atendimento humanizado para oferecer uma experiência cuidadosa, sofisticada e transformadora.
+            Descubra o prazer de se cuidar em um espaço pensado para acolher, transformar e elevar a sua saúde.
+No Instituto Zavarize, cada detalhe foi criado para proporcionar uma experiência única, com olhar individualizado, ciência e cuidado em cada etapa da sua jornada.
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link
@@ -186,25 +185,19 @@ export function About() {
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            <div className="absolute -bottom-8 -right-8 hidden max-w-xs rounded-[1.75rem] border border-[rgba(137,116,95,0.1)] bg-[var(--background)] p-8 shadow-xl lg:block">
-              <p className="font-[var(--font-serif)] text-4xl text-[var(--accent)]">15+</p>
-              <p className="mt-2 text-sm uppercase tracking-[0.18em] text-[rgba(45,36,30,0.64)]">
-                Anos de experiência cuidando da saúde com atenção individualizada.
-              </p>
-            </div>
           </Reveal>
 
           <Reveal x={40}>
             <SectionLabel>Nossa História</SectionLabel>
-            <h2 className="font-[var(--font-serif)] text-4xl leading-tight md:text-5xl">
-              Compromisso com a <span className="italic text-[var(--accent)]">excelência</span> e o cuidado.
-            </h2>
             <div className="mt-8 space-y-6 text-[rgba(45,36,30,0.7)] leading-8">
               <p>
-                O Instituto Zavarise nasceu do propósito de oferecer um atendimento que vai além do diagnóstico. Nossa visão integra ciência, sensibilidade clínica e um olhar genuinamente humano para cada paciente.
+                O Instituto Zavarize nasce da visão da Dra. Bianca Zavarize de uma medicina mais sofisticada, individualizada e verdadeiramente integrada. Sua forma de enxergar a saúde sempre partiu de um princípio essencial: o paciente não pode ser fragmentado. Cuidar exige compreender o todo, com profundidade, precisão e sensibilidade.
               </p>
               <p>
-                Cada ambiente, protocolo e etapa da jornada foi pensado para unir conforto, segurança e precisão. Trabalhamos de forma multidisciplinar para construir condutas sólidas, personalizadas e alinhadas às necessidades de cada pessoa.
+                Movida por esse propósito, idealizou um espaço onde diferentes especialidades atuam de forma complementar, oferecendo um cuidado contínuo, estratégico e personalizado. O Instituto reúne uma equipe integrada nas áreas de endocrinologia integrativa, nutrição, psiquiatria e dermatologia, permitindo uma abordagem completa, que respeita a individualidade e a complexidade de cada paciente.
+              </p>
+              <p>
+                Mais do que tratar, o Instituto Zavarize traduz um propósito de cuidado genuíno.
               </p>
             </div>
             <ul className="mt-8 space-y-4">
@@ -232,7 +225,7 @@ export function Services() {
       <Container>
         <Reveal className="mb-16 text-center">
           <SectionLabel>Especialidades</SectionLabel>
-          <h2 className="font-[var(--font-serif)] text-4xl md:text-5xl">Nossos Serviços</h2>
+          <h2 className="uppercase font-[var(--font-serif)] text-4xl md:text-5xl">Nossos Serviços</h2>
         </Reveal>
 
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
@@ -260,10 +253,7 @@ export function Staff() {
         <div className="mb-16 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <Reveal className="max-w-2xl">
             <SectionLabel>Excelência Médica</SectionLabel>
-            <h2 className="font-[var(--font-serif)] text-4xl md:text-5xl">Corpo Clínico</h2>
-            <p className="mt-4 leading-8 text-[rgba(45,36,30,0.64)]">
-              Profissionais altamente qualificados e em constante atualização para oferecer um cuidado preciso, seguro e coerente com os mais altos padrões clínicos.
-            </p>
+            <h2 className="uppercase font-[var(--font-serif)] text-4xl md:text-5xl">Corpo Clínico</h2>
           </Reveal>
 
           <Reveal>
@@ -292,7 +282,6 @@ export function Staff() {
                   <div className="absolute inset-0 flex items-end bg-gradient-to-t from-[rgba(45,36,30,0.82)] via-transparent to-transparent p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <div className="flex gap-4 text-white">
                       <Instagram className="h-5 w-5" />
-                      <Linkedin className="h-5 w-5" />
                     </div>
                   </div>
                 </div>
@@ -315,9 +304,6 @@ export function Contact() {
           <div>
             <Reveal>
               <SectionLabel>Contato</SectionLabel>
-              <h2 className="font-[var(--font-serif)] text-4xl md:text-5xl">
-                Agende sua <span className="italic text-[var(--accent)]">visita</span>
-              </h2>
             </Reveal>
 
             <div className="mt-10 space-y-8">
@@ -351,7 +337,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-medium">E-mail</h4>
-                  <p className="mt-1 text-sm text-[rgba(45,36,30,0.64)]">contato@institutozavarise.com.br</p>
+                  <p className="mt-1 text-sm text-[rgba(45,36,30,0.64)]">institutozavarise@gmail.com</p>
                 </div>
               </Reveal>
             </div>
@@ -361,11 +347,11 @@ export function Contact() {
               <div className="mt-6 space-y-4 text-sm">
                 <div className="flex justify-between border-b border-[rgba(137,116,95,0.12)] pb-3">
                   <span className="text-[rgba(45,36,30,0.64)]">Segunda - Sexta</span>
-                  <span className="font-medium">08:00 - 20:00</span>
+                  <span className="font-medium">08:00 - 18:30</span>
                 </div>
                 <div className="flex justify-between border-b border-[rgba(137,116,95,0.12)] pb-3">
                   <span className="text-[rgba(45,36,30,0.64)]">Sábado</span>
-                  <span className="font-medium">09:00 - 13:00</span>
+                  <span className="font-medium italic text-[var(--accent)]">Fechado</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-[rgba(45,36,30,0.64)]">Domingo</span>
@@ -398,9 +384,9 @@ export function Footer() {
       <Container className="px-0 md:px-0">
         <div className="mb-16 grid gap-12 md:grid-cols-4">
           <div className="md:col-span-2">
-            <span className="block font-[var(--font-serif)] text-3xl uppercase tracking-[0.24em]">Zavarise</span>
+            <span className="block font-[var(--font-serif)] text-3xl uppercase tracking-[0.24em]">Instituto Zavarise</span>
             <p className="mt-6 max-w-md leading-8 text-white/60">
-              Referência em saúde integrativa e estética avançada. Transformamos vidas por meio de um olhar cuidadoso, técnica apurada e uma experiência de alto padrão.
+              Um convite para descobrir o prazer de se cuidar, em uma experiência de saúde exclusiva que une ciência, sofisticação e sensibilidade.             
             </p>
           </div>
 
@@ -420,10 +406,11 @@ export function Footer() {
           <div>
             <h4 className="text-xs font-medium uppercase tracking-[0.24em]">Redes Sociais</h4>
             <div className="mt-6 flex gap-4">
-              {[Instagram, Facebook, Linkedin].map((Icon, index) => (
+              {[Instagram].map((Icon, index) => (
                 <a
                   key={index}
-                  href="#"
+                  href="https://www.instagram.com/institutozavarise/"
+                  target="_blank"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition-all hover:border-[var(--accent)] hover:bg-[var(--accent)]"
                 >
                   <Icon className="h-5 w-5" />
@@ -433,9 +420,9 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-center text-xs uppercase tracking-[0.22em] text-white/40 md:flex-row">
-          <p>© 2026 Instituto Zavarise. Todos os direitos reservados.</p>
-          <p>Desenvolvido por: <a href="https://jheype.dev" className="text-blue-300" target="_blank">Jheype</a></p>
+        <div className="flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-center uppercase tracking-[0.22em] text-white/40 md:flex-row">
+          <p className="text-xs">© 2026 Instituto Zavarise. Todos os direitos reservados.</p>
+          <p className="text-[8px]">Desenvolvido por: <a href="https://jheype.dev" className="text-blue-300" target="_blank">Jheype</a></p>
         </div>
       </Container>
     </footer>
