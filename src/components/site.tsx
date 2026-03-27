@@ -22,7 +22,7 @@ const services = [
   {
     title: "Dermatologia",
     description:
-      "Cuidados clínicos e estéticos da pele, tratando doenças dermatológicas e promovendo saúde, rejuvenescimento e prevenção."
+      "Cuidado médico especializado da pele, cabelos e unhas, associado a procedimentos de alta performance, com abordagem individualizada que alia precisão, naturalidade e refinamento estético."
   },
   {
     title: "Nutrição",
